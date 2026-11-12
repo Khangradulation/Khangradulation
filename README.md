@@ -11,7 +11,7 @@ Software developer building **AI agents, cloud infrastructure, and CI/CD pipelin
 | Project | What it does | Stack |
 |---|---|---|
 | [Document Q&A Assistant](https://github.com/Khangradulation/document-qa-assistant) | Serverless RAG app that answers questions about PDFs with citations | AWS Bedrock, Lambda, API Gateway, Terraform |
-| AI-Powered Receipt & Invoice Extractor | Event-driven pipeline that extracts and validates receipt data, then loads it into BigQuery | Gemini, Vertex AI, Cloud Run, Terraform |
+| [AI-Powered Receipt & Invoice Extractor](https://github.com/Khangradulation/receipt-invoice-extractor) | Event-driven pipeline that extracts and validates receipt data, then loads it into BigQuery | Gemini, Vertex AI, Cloud Run, Terraform |
 | [Infrastructure Automation & CI/CD Platform](https://github.com/Khangradulation/infra-cicd-platform) | Terraform and GitHub Actions platform that deploys a containerized API to AWS ECS Fargate with keyless OIDC auth, security scans, and approval gates. One-click demos tear themselves down. | Terraform, GitHub Actions, Docker, AWS ECS, OIDC |
 | [babasshawarma.com](https://babasshawarma.com) | Live business site with auto-deploy CI/CD and an AI support chatbot with guardrails | React, Vite, GitHub Actions |
 | LLM Inventory Agent | Tracks supply levels and sends low-stock alerts for Baba's Shawarma | Google ADK, GCP, BigQuery, Terraform |
